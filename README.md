@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ When the user enters a string here, the app searches all the text in the alerts for that string. If there is a match, the alert is displayed.
+For example, if the user enters “Unsafe”, only the unsafe driving alert should be visible.
+If the user enters “Suresh”, only the second alert should be visible.
+If the user enters “Driv”, both alerts should be visible as “Driv” matches both “Unsafe driving” and “Distracted driver”.
